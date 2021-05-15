@@ -1,0 +1,165 @@
+.title-header {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #333333;
+  width: 34%;
+  text-align: start;
+}
+.count {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4f4f4f;
+  width: 50%;
+  text-align: end;
+}
+
+.container-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 75%;
+  text-align: center;
+  justify-content: center;
+}
+
+.container-home {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px !important;
+}
+
+
+
+
+
+
+.contenedor_buscador_home{
+  width: 100%;
+  height: 20% ;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap ;
+  padding-top: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+
+}
+
+
+.contenedor_buscador{
+  position: relative;
+  width: 297px;
+  height: 55px;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+
+  margin-right: 1rem;
+}
+
+.contenedor_panel_buscador{
+  display: grid;
+  width: 100%;
+  height: 100% ;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1px;
+  align-items: center;
+  justify-content: space-between;
+
+  
+}
+
+.contenedor_panel_buscador div {
+  color: #333333;
+  font-size: 10px;
+ }
+
+
+ .linea_buscador{
+  width: 55px;
+  height: 0px;
+  margin-left: 4rem;
+  margin-top: -1rem;
+  border: 1px solid #F2F2F2;
+  transform: rotate(90deg);
+ }
+
+ .searchButton {
+  width: 74px;
+  height: 54px;
+  border: 1px solid #F2F2F2;
+  text-align: center;
+  color: #fff;
+  margin-left: -1px;
+  align-items: unset;
+  border-radius: 0 19px 14px 0;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: #ffffff;
+}
+
+ .searchButton i{
+   margin-top: 0.5rem;
+   font-size: 1rem;
+   color: #EB5757;
+ }
+ .txtBuscar{
+  width: 123px;
+  height: 50px;
+  border: 1px solid #F2F2F2;
+  text-align: center;
+  margin-left: -28px;
+  
+ }
+.ciudad_resultado_filtro{
+  font-size: 3rem;
+  color: black;
+  font-weight: bold;
+  margin-top: -1rem;
+  /* font-family: Mulish; */
+  font-style: normal;
+
+  line-height: 25px;
+}
+
+.contenedor_logo{
+  position: relative;
+  width: 20rem;
+  height: 18.75px;
+  left: 5rem;
+
+}
+.contenedor_logo i{
+
+  width: 21.65px;
+  height: 18.75px;
+margin-top: -0.9rem;
+ font-size: 2rem;
+  color: #EB5757;
+  
+}
+.contenedor_logo strong{
+  position: absolute;
+  width: 69px;
+  height: 18px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  margin-left: 0.5rem;
+  color: #EB5757;
+  margin-bottom: 0.5rem;
+}
